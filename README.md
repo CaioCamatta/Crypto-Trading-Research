@@ -7,6 +7,13 @@ This is not the smartest way to find good trading strategies for crypto or even 
 I ran over 150 million different combinations across different periods of time to see their profits (40 hours to run). This is not the correct solution to the problem of finding a good trading strategy. The difficulty and time required increase exponentially.
 But it was a nice challenge and I learned a lot from it. After I was done I proceeded to learn Machine Learning and Deep Learning. If you are thinking about doing a project similar to the one I did here, I'd recommend you go straight to Machine Learning (it's awesome).
 
+## How it works
+  - getData.py : Downloads OHLC data from poloniex and saves to a .csv
+  - addData.py : Creates a new .csv with a lot of indicator data (using ta-lib) to be used later.
+  - analisys-clean.py and crossAnalysis.py : Calculates the final profit of the combination of all the choosen indicator values. Buys and sell when the 'trading bar' reaches x (50, 100, 150, etc.. explained better later).
+  - reverse-engineer.py : Goes through the output file to find what indicators were used on specific strategies (e.g. the ones w/ highest profit)
+  - plot.py : Plots a lot of info about a specific strategy. OBS: It will re-calculate the speficic strategy on a selected OHLC chart.
+
 ## Short Explanation
   A brief explanation of the research, method and code.
 
