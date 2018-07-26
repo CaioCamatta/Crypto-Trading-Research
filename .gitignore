@@ -1,0 +1,5 @@
+CryptoCurrency BOT/
+old/
+poloniex/__pycache__/
+tests/
+data.csv
