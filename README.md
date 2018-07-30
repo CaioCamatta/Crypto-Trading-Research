@@ -1,5 +1,5 @@
 # CRYPTOCURRENCY TRADING STUDY
-A "bot" that uses technical indicators tests the profit of multiple trading strategies.
+A "bot" I made at the end of 2017 that uses technical indicators tests the profit of multiple trading strategies.
 
 ## Important
 This is not the smartest way to find good trading strategies for crypto or even stocks or forex. **Machine Learning is the way to go**.
