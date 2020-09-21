@@ -1,11 +1,12 @@
 # CRYPTOCURRENCY TRADING STUDY
 A "bot" I made in 2017 to find profitable cryptocurrency trading strategies using 5 popular technical indicators.
 
+### Important
 **Please read:** This is neither a great representation of my Python skills nor a good display of my English. I worked on this project in high school, and it's only set to Public because I was really into crypto back then. If anything, it's a reference point for gauging how my programming/CS skills have improved. 
 
 ---
 
-### A note
+#### A note
 This is not the smartest way to find good trading strategies for crypto or even stocks or forex. **Machine Learning is the way to go**.
 
 I ran over 150 million different combinations across different periods of time to see their profits (40 hours to run). This is not the correct solution to the problem of finding a good trading strategy. The difficulty and time required increase exponentially.
